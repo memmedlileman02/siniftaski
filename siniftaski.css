@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    background-color: #ba1816; 
+    padding: 10px 0;
+}
+.navbars{
+    max-width: 95%;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.navbar img{
+   width: 65px;
+   height: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family:monospace;
+    font-style: normal;
+    font-size: 15px;
+}
+a:hover{
+    color: yellow;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+.basliq{
+    background-image: url("./images.png");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding-top: 30px;
+    text-align: center;
+}
+.basliq h1{
+    display: inline;
+    text-align: center;
+    color: yellow;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 80px;
+    text-shadow: 1px 1px 5px rgb(151, 101, 7);
+    margin-bottom: 10px;
+}
+
+.basliq h1:hover{
+    color: red;
+    text-shadow: 6px 5px 5px rgb(151, 101, 7);
+}
+.cards{
+    background-color: white
+}
+.card{
+    width: 1500px;
+    max-width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.metin{
+    text-align: justify;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yazi button{
+    cursor: pointer;
+    background-color: #820300;
+    color: white;
+    border: 1px white;
+    border-radius: 7px;
+    padding: 10px;
+}
+.yazi button:hover{
+    color: gold;
+}
+
+.products{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.product {
+    width: 23%;
+    background-color: rgb(181, 65, 85);
+    border: 1px solid rgb(218, 168, 75);
+    border-radius: 10px;
+}
+.products img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top: 1px rgb(0, 238, 255);
+    border-radius: 10px;
+}
+h3{
+    font-family:serif;
+    font-size:35px;
+    font-style: normal;
+    text-shadow: 2px 2px 2px #ae1311; 
+}
+.yazi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    align-items: center;
+    padding: 10px;
+}
+.card h1{
+    color: rgb(255, 47, 0);
+    text-shadow: 2px 2px 2px #820300;
+}
